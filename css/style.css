@@ -145,6 +145,7 @@ textarea:focus{
 }
 .menu{
     list-style: none;
+    float: right;
  
 }
 .menu .nav-item{
