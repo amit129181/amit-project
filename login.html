@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Page</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Blinker&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/animate.css">
+
+</head>
+<body id="auth">
+<div class="full">
+	<div class="half center">
+		<div class="auth-wrapper">
+			<div class="form-title">
+				
+				<img src="images/icon.svg" width="45px"><br>
+				<span class="title" id="title">
+			Login Here</span>
+		</div>
+			<form class="form-class animated fadeIn delay-1s" id="login">
+				<div class="form-input">
+					<label for="username">Username or Email :</label>
+					<input type="text" name="" id="username" placeholder="username">
+				</div>
+				<div class="form-input">
+				<label for="username">Password :</label>
+				<input type="password" name="" id="password" placeholder="********">
+			</div>
+			<div class="form-input">
+				<button type="submit" class="a-button" name="" >Login</button>
+				<a href="#" onclick="signup();">Create Account</a>
+			</div>
+			</form>
+
+			<form class="form-class animated fadeIn delay-1s" id="signup">
+				<div class="form-input">
+					<label for="email">Email :</label>
+					<input type="text" name="" id="email" placeholder="email">
+				</div>
+				<div class="form-input">
+					<label for="username">Username :</label>
+					<input type="text" name="" id="username" placeholder="username">
+				</div>
+				<div class="form-input">
+				<label for="username">Password :</label>
+				<input type="password" name="" id="password" placeholder="********">
+			</div>
+			<div class="form-input">
+				<button type="submit" class="b-button" name="" >Signup</button>
+				<a href="#" onclick="login();">Already Have a Account ?</a>
+			</div>
+			</form>
+		</div>
+	</div>
+	
+</div>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

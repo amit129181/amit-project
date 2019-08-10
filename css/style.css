@@ -1,0 +1,311 @@
+#auth{
+	background-image: url('../images/bgg.jpg');
+	background-size:     cover;                      
+    background-repeat:   no-repeat;
+    background-position: center center;
+    min-height:640px;
+}
+
+#homepage{
+    margin: 0px;
+}
+
+.nav{
+    background: #dc143c;
+    padding: 10px 0px;
+    width: 100%;
+    z-index: 1;
+}
+
+.logo-holder{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+body{
+	font-family: 'Blinker', sans-serif;
+}
+
+.full{
+ 	padding-right: 15px;
+ 	padding-left: 15px;
+  	 margin-right: auto;
+  	 margin-left: auto;
+ 	width: 1120px;
+    display: flex;
+}
+
+.half{
+	width: 50%;
+	padding: 2px 4px;
+}
+
+.center{
+	margin: auto;
+}
+
+.auth-wrapper{
+	margin-top: 110px;
+    padding: 5px 0px;
+}
+
+.form-title{
+	font-size: 25px;
+    text-align: center;
+    padding: 5px;
+    color: aliceblue;
+}
+
+.form-class{
+	background: #0000008f;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.form-input label{
+	display: grid;
+	color: white;
+}
+
+.form-input{
+	padding: 10px 5px;
+}
+
+.a-button{
+    width: 80px;
+    background: crimson;
+    padding: 5px 10px;
+    border: none;
+    color: blanchedalmond;
+    line-height: 1.6;
+    border-radius: 15px;
+}
+.a-button:focus{
+	outline: none;
+}
+.a-button:hover{
+	cursor: pointer;
+}
+
+.b-button{
+    width: 80px;
+    background: #01589c;
+    padding: 5px 10px;
+    border: none;
+    color: blanchedalmond;
+    line-height: 1.6;
+    border-radius: 15px;
+}
+.b-button:focus{
+	outline: none;
+}
+.b-button:hover{
+	cursor: pointer;
+}
+.form-input input{
+    padding: 7px;
+    width: auto;
+    border: none;
+    border-radius: 2px;
+}
+
+.form-input input:focus{
+	border: 1px solid #15f7ff;
+    background-color: black;
+    color: white;
+}
+textarea:focus{
+    border: 1px solid #15f7ff;
+    background-color: black;
+    color: white;
+}
+
+.form-input a{
+	text-decoration: none;
+    color: cyan;
+    float: right;
+}
+
+#signup{
+	display: none;
+}
+.left{
+    float: left !important;
+}
+.right{
+    float: right;
+}
+.logo{
+      width: 30%;
+    padding: 10px 0px;
+}
+.navs{
+    width: 70%;
+}
+.menu{
+    list-style: none;
+ 
+}
+.menu .nav-item{
+    display: inline-block;
+}
+.menu .nav-links{
+       text-decoration: none;
+    padding: 0px 15px;
+    color: black;
+	
+}
+.slide{
+    background-image: url(../images/2.png);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+.contact-wrapper{
+    padding: 60px 0px;
+    background-image: url(../images/1.jpg);
+    background-size: cover;
+}
+.slide .upper{
+       width: 100%;
+    background: #00000082;
+    color: white;
+    margin: 100px 0px;
+    padding: 80px 20px;
+}
+.full-width{
+    width: 100%;
+}
+
+.header h3{
+    text-decoration: overline;
+    font-size: 30px;
+
+}
+.top-wrapper{
+    background: black;
+    padding: 5px;
+}
+.top-wrapper a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+}
+.col-4{
+    width: 40%;
+}
+.col-3{
+    width: 30%;
+}
+.col-2{
+    width: 50%;
+}
+.col-8{
+    width: 60%;
+}
+.portfolio{
+    padding: 20px;
+}
+.desc{
+    padding: 5px;
+}
+.service-body{
+       padding: 10px;
+    height: 560px;
+    overflow: hidden;
+}
+.img-holder{
+        width: 100%;
+    height: 230px;
+    display: block;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.img-holder img{
+        width: 100%;
+    height: 100%;
+}
+.service-header{
+        margin: 5px 0px;
+    background: crimson;
+    color: white;
+    padding: 5px;
+}
+.new-button{
+       width: 100px;
+    background-color: #48a3ad;
+    border: none;
+    outline: none;
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+}
+.contact-form{
+       background-color: #3a2b6780;
+    padding: 20px;
+    border-radius: 15px;
+}
+.contact-form .inputs{
+     padding: 7px;
+    width: auto;
+    border: none;
+    border-radius: 2px;
+    width: 250px;
+}
+.contact-form textarea{
+    height: 60px;
+}
+footer{padding: 5px;
+    background-color:#48a3ad;
+    padding: 5px;
+  
+}
+.social i{
+  font-size: 64px;
+  padding: 20px;
+}
+.social a{
+    text-decoration: none;
+    color: #dc143c;
+}
+
+.social a:hover{
+    color: black;
+}
+.bottom{
+        background-color: black;
+    color: white;
+}
+.bottom i{
+    color: red;
+}
+
+footer .menu li{
+    padding: 5px;
+}
+#myBtn {
+  display: none; 
+  position: fixed;
+  bottom: 20px;
+  right: 30px; 
+  z-index: 99; 
+  border: none;
+  outline: none;
+  background-color: #dc143c; 
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
